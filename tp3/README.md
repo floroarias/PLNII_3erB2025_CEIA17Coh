@@ -2,6 +2,8 @@
 # TP3 — Chatbot de **Agentes** con RAG (Pinecone + Groq + Streamlit)
 # Alumno: Florentino Arias
 
+Video Demo: [Video tp3 GoogleDrive](https://drive.google.com/file/d/1sHpF_Wok0KOSmpzt0NBA0i8CJBQFDjR3/view?usp=sharing)
+
 Sistema que, dado una consulta, **detecta a qué persona(s)** se refiere (por **RegEx**),
 recupera contexto desde **Pinecone** (**1 índice por CV**) y genera la respuesta con un LLM
 (**Groq / Llama 3**), **citando** los fragmentos utilizados.
@@ -31,3 +33,4 @@ python ingestar_cv_pinecone.py --file ./cv_german.docx   --index cv-german-384  
 
 # 5) correr el chatbot y preguntarle
 streamlit run chatbot_rag_agentes.py
+
