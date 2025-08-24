@@ -2,6 +2,8 @@
 # TP2 — Chatbot con RAG (Pinecone + Groq + Streamlit)
 # Alumno: Florentino Arias
 
+Video Demo: [Video tp2 GoogleDrive](https://drive.google.com/file/d/14BlQLrE9mzMCQQ4xJif35jv10uHFTwOw/view?usp=sharing)
+
 Sistema que, dada una consulta, recupera contexto desde **Pinecone** (**1 índice por CV**) 
 consultando el índice que se le indica y genera la respuesta con un LLM 
 (**Groq / Llama 3**).
@@ -26,3 +28,4 @@ python ingestar_cv_pinecone.py --file ./cv_german.docx   --index cv-german-384  
 
 # 5) correr el chatbot y preguntarle
 streamlit run chatbot_rag_cv.py
+
