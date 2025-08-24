@@ -1,3 +1,7 @@
+# Procesamiento de Lenguaje Natural II - CEIA - FIUBA
+# TP1 — TinyGPT (Simple + MOE)
+# Alumno: Florentino Arias
+
 **Tarea I**: Implementar modificaciones en la función 'generate' para decodificación greedy, muestreo por temperatura y muestreo top-k/top-p.
 
 Configurar el entorno del notebook. 
